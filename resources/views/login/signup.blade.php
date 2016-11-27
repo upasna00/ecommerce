@@ -1,49 +1,8 @@
 @extends('layouts.master')
 @section('title')
-login
+register
 @endsection
 @section('content')
-<div class="col-md-4"></div>
-<div class="loginForm">
-<div class="col-md-4">
-	<div class="well well-sm contactBox">
-		<div class="text-center" style="padding:50px 0">
-			<div class="logo"><b>Login</b></div></br>
-	<!-- Main Form -->
-	<div class="login-form-1">
-		<form id="login-form" class="text-left">
-			<div class="login-form-main-message"></div>
-			<div class="main-login-form">
-				<div class="login-group">
-					<div class="form-group">
-						<label for="lg_username" class="sr-only">Username</label>
-						<input type="text" class="form-control" id="lg_username" name="lg_username" placeholder="username">
-					</div>
-					<div class="form-group">
-						<label for="lg_password" class="sr-only">Password</label>
-						<input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="password">
-					</div>
-					<div class="form-group login-group-checkbox">
-						<input type="checkbox" id="lg_remember" name="lg_remember">
-						<label for="lg_remember">remember me</label>
-					</div>
-				</div>
-				<button type="submit" class="btn btn-primary"><i class="fa fa-chevron-right"></i>Login</button>
-			</div>
-			<div class="etc-login-form">
-				<p>forgot your password? <a href="#">click here</a></p>
-				<p>new user? <a href="#" class="registerForm">create new account</a></p>
-			</div>
-		</form>
-	</div>
-	<!-- end:Main Form -->
-</div>
-</div>
-
-	</div>
-
-</div>
-
 <div class="register-form">
 <div class=" col-md-4 well well-sm contactBox">
 <div class="text-center" style="padding:50px 0">
@@ -92,7 +51,7 @@ login
 				<button type="submit" class="btn btn-primary">Sign Up</button>
 			</div>
 			<div class="etc-login-form">
-				<p>already have an account? <a href="#" class="loginHere">login here</a></p>
+				<p>already have an account? <a href="#" class="">login here</a></p>
 			</div>
 		</form>
 	</div>

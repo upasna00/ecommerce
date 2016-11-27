@@ -61,7 +61,7 @@ Shop Homepage
                             <img src="{{url('/img/phone2.jpg')}}" alt="" class="img-thumbnail">
                             <div class="caption">
                                 <h4 class="pull-right">$24.99</h4>
-                                <h4><a href="#">First Product</a>
+                                <h4><a href="detail">First Product</a>
                                 </h4>
                                 <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
                             </div>
@@ -83,7 +83,7 @@ Shop Homepage
                             <img src="{{ url('/img/phone2.jpg')}}" class="img-thumbnail"alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$64.99</h4>
-                                <h4><a href="#">Second Product</a>
+                                <h4><a href="detail">Second Product</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
@@ -149,7 +149,7 @@ Shop Homepage
                             <img src="{{ url('img/phone2.jpg')}}" class="img-thumbnail" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$94.99</h4>
-                                <h4><a href="#">Fifth Product</a>
+                                <h4><a href="detail">Fifth Product</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>

@@ -17,3 +17,4 @@
 Route::get('/','Home\HomeControllers@index');
 Route::get('/login','Login\LoginController@index');
 Route::get('/contact','Contact\ContactController@index');
+Route::get('/detail','Home\HomeControllers@detail');
